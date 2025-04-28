@@ -33,15 +33,14 @@ interface Task {
 See docs/API.md for complete API documentation.
 
 ## Development
+Installing dependencies
+```bash
+npm install
+```
+
 Running the App
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open http://localhost:3000 in your browser.
