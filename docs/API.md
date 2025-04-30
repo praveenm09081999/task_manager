@@ -1,12 +1,12 @@
 # Task Manager API Documentation
 
 ## Base URL
-`/api`
+`/api/tasks`
 
 ## Endpoints
 
 ### 1. Get All Tasks
-`GET /tasks/getAll`
+`GET /getAll`
 
 **Description:**  
 Retrieve all tasks sorted by due date.
@@ -28,7 +28,7 @@ Retrieve all tasks sorted by due date.
 ```
 
 ### 2. Create a Task
-`GET /tasks/addTask`
+`GET /addTask`
 
 **Description:**  
 Create a new task with a unique ID.
@@ -48,7 +48,7 @@ Create a new task with a unique ID.
 ```
 
 ### 3. Update a Task
-`PUT /tasks/updateTask`
+`PUT updateTask`
 
 **Description:**  
 Update an existing Task.
@@ -81,7 +81,7 @@ Update an existing Task.
 ```
 
 ### 4. Delete a Task
-`PUT /tasks/deleteTask`
+`DELETE /deleteTask`
 
 **Description:**  
 Delete an existing task.
